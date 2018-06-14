@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+<head>
+    <title>Cypress.io Learning Day at THE ICONIC</title>
+    <script src="node_modules/axios/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="node_modules/spectre.css/dist/spectre.min.css">
+</head>
+<body>
+<a href="index.html">Back to catalog</a>
+<h1>Product: <span id="product-sku"><!-- --></span></h1>
+
+<div class="container">
+    <div class="columns">
+        <div class="col-8">
+            <img id="product-image" src="" width="500"/>
+        </div>
+        <div class="col-4">
+            <div id="product-name">
+                <div class="loading"></div>
+            </div>
+            <div id="product-price">
+                <div class="loading"></div>
+            </div>
+            <div class="form-group">
+                <label>Quantity
+                    <select id="quantity">
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                    </select>
+                </label>
+            </div>
+            <div id="product-total">
+                <div class="loading"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="product.js"></script>
+</body>
+
+</html>

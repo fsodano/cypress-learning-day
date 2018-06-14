@@ -1,0 +1,17 @@
+{
+  "name": "cypress-learning-day",
+  "version": "0.0.1",
+  "description": "Learning day sample code",
+  "main": "index.js",
+  "repository": "https://github.com/fsodano/cypress-learning-day.git",
+  "author": "Fabricio Leonardo Sodano Pascazi <fabricio.sodano@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.18.0",
+    "spectre.css": "^0.5.2"
+  },
+  "devDependencies": {
+    "http-server": "^0.11.1"
+  }
+}
