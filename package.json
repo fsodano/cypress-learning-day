@@ -7,11 +7,16 @@
   "author": "Fabricio Leonardo Sodano Pascazi <fabricio.sodano@gmail.com>",
   "license": "MIT",
   "private": true,
+  "scripts": {
+    "start": "http-server",
+    "dev-test-ui": "cypress open"
+  },
   "dependencies": {
     "axios": "^0.18.0",
     "spectre.css": "^0.5.2"
   },
   "devDependencies": {
+    "cypress": "^3.0.1",
     "http-server": "^0.11.1"
   }
 }
